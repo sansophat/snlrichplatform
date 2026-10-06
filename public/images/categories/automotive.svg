@@ -1,0 +1,51 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </radialGradient>
+    <linearGradient id="tire" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="350" rx="100" ry="20" fill="#94a3b8" opacity="0.45"/>
+  <g filter="url(#sh)">
+    <!-- Outer tire -->
+    <circle cx="200" cy="200" r="130" fill="url(#tire)"/>
+    <!-- Tire treads -->
+    <circle cx="200" cy="200" r="126" stroke="#475569" stroke-width="2" stroke-dasharray="10 8" fill="none"/>
+    <circle cx="200" cy="200" r="122" stroke="#1e293b" stroke-width="1.5" fill="none"/>
+    <!-- Rim outer ring -->
+    <circle cx="200" cy="200" r="92" fill="#1e293b"/>
+    <circle cx="200" cy="200" r="88" fill="url(#rim)"/>
+    <circle cx="200" cy="200" r="80" fill="#0f172a"/>
+    <!-- Spokes (5 split-spokes) -->
+    <g stroke="url(#rim)" stroke-width="12" stroke-linecap="round">
+      <line x1="200" y1="200" x2="200" y2="124"/>
+      <line x1="200" y1="200" x2="272" y2="176"/>
+      <line x1="200" y1="200" x2="244" y2="260"/>
+      <line x1="200" y1="200" x2="156" y2="260"/>
+      <line x1="200" y1="200" x2="128" y2="176"/>
+    </g>
+    <!-- Center cap & lug nuts -->
+    <circle cx="200" cy="200" r="28" fill="url(#rim)"/>
+    <circle cx="200" cy="200" r="22" fill="#0f172a"/>
+    <circle cx="200" cy="200" r="12" fill="#d97706"/>
+    <circle cx="190" cy="192" r="3.5" fill="#f8fafc"/>
+    <circle cx="210" cy="192" r="3.5" fill="#f8fafc"/>
+    <circle cx="216" cy="208" r="3.5" fill="#f8fafc"/>
+    <circle cx="200" cy="216" r="3.5" fill="#f8fafc"/>
+    <circle cx="184" cy="208" r="3.5" fill="#f8fafc"/>
+  </g>
+</svg>

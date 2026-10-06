@@ -1,8 +1,0 @@
-{
-  "name": "SNL RICH - Multi-Merchant E-Commerce & Rewards Platform",
-  "description": "SNL RICH is a premier multi-merchant marketplace featuring verified brands, instant cashback, reward points, and affiliate referral earning.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}

@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f4ede2"/>
+    </radialGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#1e293b" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="340" rx="90" ry="16" fill="#cbd5e1" opacity="0.6"/>
+  <g filter="url(#sh)">
+    <!-- Bottom book (Navy) -->
+    <path d="M 100 280 L 280 280 Q 295 280 295 295 L 295 315 L 100 315 Z" fill="#0a2240"/>
+    <rect x="110" y="286" width="180" height="23" fill="#f8fafc"/>
+    <rect x="95" y="280" width="15" height="35" rx="4" fill="#133458"/>
+    <!-- Middle book 1 (Gold/Amber) -->
+    <path d="M 115 240 L 275 240 Q 290 240 290 255 L 290 275 L 115 275 Z" fill="#d97706"/>
+    <rect x="125" y="246" width="160" height="23" fill="#fef3c7"/>
+    <rect x="110" y="240" width="15" height="35" rx="4" fill="#b45309"/>
+    <!-- Middle book 2 (Sage Green) -->
+    <path d="M 125 200 L 270 200 Q 285 200 285 215 L 285 235 L 125 235 Z" fill="#15803d"/>
+    <rect x="135" y="206" width="145" height="23" fill="#f0fdf4"/>
+    <rect x="120" y="200" width="15" height="35" rx="4" fill="#166534"/>
+    <!-- Top book (Rose/Terracotta) -->
+    <path d="M 135 160 L 265 160 Q 280 160 280 175 L 280 195 L 135 195 Z" fill="#be123c"/>
+    <rect x="145" y="166" width="130" height="23" fill="#fff1f2"/>
+    <rect x="130" y="160" width="15" height="35" rx="4" fill="#9f1239"/>
+    <!-- Bookmark ribbon -->
+    <path d="M 230 160 L 230 220 L 238 212 L 246 220 L 246 160 Z" fill="#f59e0b"/>
+  </g>
+</svg>

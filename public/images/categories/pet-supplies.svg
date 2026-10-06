@@ -1,0 +1,41 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff8f0"/>
+      <stop offset="100%" stop-color="#faebd7"/>
+    </radialGradient>
+    <radialGradient id="bone" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </radialGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#7c2d12" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <ellipse cx="200" cy="340" rx="95" ry="18" fill="#d7b99c" opacity="0.5"/>
+  <g filter="url(#sh)">
+    <!-- Bowl (Terracotta ceramic) -->
+    <path d="M 110 250 L 290 250 C 280 320, 120 320, 110 250 Z" fill="#c2410c"/>
+    <ellipse cx="200" cy="250" rx="90" ry="18" fill="#ea580c"/>
+    <ellipse cx="200" cy="250" rx="80" ry="14" fill="#9a3412"/>
+    <!-- Pet Paw Print Badge on Bowl -->
+    <ellipse cx="200" cy="285" rx="14" ry="11" fill="#fed7aa"/>
+    <circle cx="187" cy="272" r="5" fill="#fed7aa"/>
+    <circle cx="196" cy="268" r="5" fill="#fed7aa"/>
+    <circle cx="205" cy="268" r="5" fill="#fed7aa"/>
+    <circle cx="214" cy="272" r="5" fill="#fed7aa"/>
+    <!-- Dog Bone sticking out of bowl -->
+    <g transform="rotate(-28 175 210)">
+      <rect x="130" y="195" width="90" height="26" rx="6" fill="url(#bone)"/>
+      <circle cx="130" cy="192" r="18" fill="url(#bone)"/>
+      <circle cx="130" cy="224" r="18" fill="url(#bone)"/>
+      <circle cx="220" cy="192" r="18" fill="url(#bone)"/>
+      <circle cx="220" cy="224" r="18" fill="url(#bone)"/>
+    </g>
+    <!-- Colorful play ball next to bowl -->
+    <circle cx="270" cy="290" r="32" fill="#0284c7"/>
+    <path d="M 245 285 Q 270 260 295 285 Q 270 310 245 285 Z" fill="#38bdf8"/>
+    <path d="M 270 258 Q 295 285 270 322 Q 255 285 270 258 Z" fill="#f59e0b"/>
+  </g>
+</svg>
